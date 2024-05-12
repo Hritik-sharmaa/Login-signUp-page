@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    background: rgb(147,0,182);
+    background: linear-gradient(90deg, rgba(147,0,182,1) 0%, rgba(255,0,134,1) 100%);
+    overflow: hidden;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgb(0, 0, 0);
+}
+
+.container h2{
+    text-align: center;
+    padding: 20px ; 
+    font-family: "Righteous",serif;
+    letter-spacing:2px;
+    word-spacing: 2px;
+}
+
+.txt_field{
+    text-align: center;
+    margin:20px;
+    padding: 0 20px;
+}
+
+.txt_field input{
+    border:none;
+    border-bottom: 2px solid #913de0;
+    font-size: 17px;
+    padding-left: 10px;
+    outline: none;
+    font-family: "Itim",serif;
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+.frg_pass{
+    padding-left: 23%;
+    margin-bottom:15px ;
+    color:#913de0;
+    cursor: pointer;
+    font-family: "Itim",serif;
+    font-size: 15px;
+}
+
+.frg_pass:hover{
+    text-decoration: underline;
+    color: #6302be;
+}
+
+input[type="submit"]{
+    background-color: #913de0;
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 101px;
+    margin-bottom: 15px;
+    font-family: "Righteous",serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+input[type="submit"]:hover{
+    background-color: #6302be;
+}
+
+.bottom_txt{
+    color: #913de0;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-family: "Itim",serif;
+    font-size: 17px;
+}
+
+.bottom_txt a{
+    text-decoration: none;
+    color: #ec3faa;
+}
+
+.bottom_txt a:hover{
+    color: #e6048f;
+    text-decoration: underline;
+}
